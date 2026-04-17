@@ -1,0 +1,108 @@
+const products = [
+  {
+    name: 'classic-butter-croissant',
+    title: 'Classic Butter Croissant',
+    category: 'Pastries',
+    price: 'PHP 89',
+    stock: 'In stock',
+    image: 'https://images.stockcake.com/public/b/f/8/bf8bfd12-a279-4877-92c6-b58b592cf3e0_large/flaky-golden-croissant-stockcake.jpg',
+    content: [
+      'Flaky golden layers made with premium European butter.',
+      'Freshly baked every morning at 6AM. Perfect with coffee.',
+      'Our bestseller - 200+ sold daily!',
+    ],
+  },
+  {
+    name: 'chocolate-pain-au-chocolat',
+    title: 'Pain au Chocolat',
+    category: 'Pastries',
+    price: 'PHP 109',
+    stock: 'Low stock',
+    image: 'https://thefrenchbakeronline.com/cdn/shop/products/6.jpg?v=1590295648',
+    content: [
+      'Double-layered with premium dark chocolate batons.',
+      'Crispy exterior, gooey chocolate center.',
+      'Best paired with espresso or hot chocolate.',
+    ],
+  },
+  {
+    name: 'vanilla-cupcake',
+    title: 'Vanilla Cupcake',
+    category: 'Cakes',
+    price: 'PHP 69',
+    stock: 'In stock',
+    image: 'https://images.stockcake.com/public/a/0/e/a0e4bea6-00d4-4b51-a932-f1efe7dca21c_large/pristine-vanilla-cupcake-stockcake.jpg',
+    content: [
+      'Moist vanilla sponge with silky Swiss meringue buttercream.',
+      'Perfect treat size for afternoon cravings.',
+      'Available in 6 classic flavors.',
+    ],
+  },
+  {
+    name: 'sourdough-loaf',
+    title: 'Artisan Sourdough Loaf',
+    category: 'Breads',
+    price: 'PHP 249',
+    stock: 'In stock',
+    image: 'https://images.stockcake.com/public/0/8/d/08de69d5-9554-43aa-bb7b-0781ffbadf84_large/artisan-bread-loaf-stockcake.jpg',
+    content: [
+      '24-hour fermented with natural levain starter.',
+      'Crusty exterior, open crumb interior.',
+      'Perfect for toast, sandwiches, or fresh with butter.',
+    ],
+  },
+  {
+    name: 'almond-croissant',
+    title: 'Almond Croissant',
+    category: 'Pastries',
+    price: 'PHP 129',
+    stock: 'In stock',
+    image: 'https://www.thelittleepicurean.com/wp-content/uploads/2021/04/almond-croissant-1.jpg',
+    content: [
+      'Flaky pastry filled with housemade almond frangipane.',
+      'Toasted sliced almonds and powdered sugar finish.',
+      'Warm it up for the best experience.',
+    ],
+  },
+  {
+    name: 'red-velvet-slice',
+    title: 'Red Velvet Cake Slice',
+    category: 'Cakes',
+    price: 'PHP 139',
+    stock: 'Preorder',
+    image: 'https://images.stockcake.com/public/2/9/a/29abe34b-3559-4a2e-94c3-b639a74324b9_large/decadent-velvet-slice-stockcake.jpg',
+    content: [
+      'Rich cocoa cake with tangy cream cheese frosting.',
+      'Freshly sliced to order by weight.',
+      'Popular for birthdays and celebrations.',
+    ],
+  },
+  {
+    name: 'brioche-rolls',
+    title: 'Brioche Rolls (4pcs)',
+    category: 'Breads',
+    price: 'PHP 159',
+    stock: 'In stock',
+    image: 'https://images.stockcake.com/public/b/b/d/bbd5e537-d0b7-40ef-9af8-2b8da8380cc7_large/golden-brioche-perfection-stockcake.jpg',
+    content: [
+      'Enriched butter brioche with soft pillowy texture.',
+      'Perfect for burgers, breakfast sandwiches, or dinner rolls.',
+      'Freezes beautifully for later use.',
+    ],
+  },
+  {
+    name: 'eclair',
+    title: 'Chocolate Éclair',
+    category: 'Pastries',
+    price: 'PHP 119',
+    stock: 'Low stock',
+    image: 'https://images.stockcake.com/public/3/4/2/3421d45b-c398-4879-816a-bacb100bbb90_large/chocolate-eclairs-served-stockcake.jpg',
+    content: [
+      'Light choux pastry filled with vanilla pastry cream.',
+      'Glazed with rich chocolate ganache.',
+      'Hand-piped fresh daily.',
+    ],
+  },
+];
+
+export default products;
