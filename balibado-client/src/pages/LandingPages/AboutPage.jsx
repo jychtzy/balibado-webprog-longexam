@@ -127,21 +127,46 @@ const AboutPage = () => {
   <p className="text-sm font-semibold uppercase tracking-wide text-amber-600 mb-4">
     Featured Categories
   </p>
-  <div className="grid gap-3 mb-6">
-    <div className="aspect-square rounded-xl bg-amber-200 flex items-center justify-center hover:shadow-md transition-shadow cursor-pointer border border-amber-300">
-      <span className="text-2xl">🥐</span>
+
+  <div className="grid gap-4 sm:grid-cols-3 mb-6">
+    <div className="rounded-xl overflow-hidden border border-amber-300 bg-white shadow-sm">
+      <img
+        src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
+        alt="Croissants"
+        className="w-full h-40 object-cover"
+      />
+      <div className="p-3 text-center">
+        <p className="font-semibold text-amber-900">Croissants</p>
+      </div>
     </div>
-    <div className="aspect-square rounded-xl bg-rose-200 flex items-center justify-center hover:shadow-md transition-shadow cursor-pointer border border-amber-300">
-      <span className="text-2xl">🎂</span>
+
+    <div className="rounded-xl overflow-hidden border border-amber-300 bg-white shadow-sm">
+      <img
+        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+        alt="Cake"
+        className="w-full h-40 object-cover"
+      />
+      <div className="p-3 text-center">
+        <p className="font-semibold text-amber-900">Cakes</p>
+      </div>
     </div>
-    <div className="aspect-square rounded-xl bg-yellow-200 flex items-center justify-center hover:shadow-md transition-shadow cursor-pointer border border-amber-300">
-      <span className="text-2xl">🍞</span>
-    </div>
-    <div className="aspect-square rounded-xl bg-emerald-200 flex items-center justify-center hover:shadow-md transition-shadow cursor-pointer border border-amber-300">
-      <span className="text-2xl">☕</span>
+
+    <div className="rounded-xl overflow-hidden border border-amber-300 bg-white shadow-sm">
+      <img
+        src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80"
+        alt="Bread"
+        className="w-full h-40 object-cover"
+      />
+      <div className="p-3 text-center">
+        <p className="font-semibold text-amber-900">Bread</p>
+      </div>
     </div>
   </div>
-  <Button to="/products" className="w-full bg-amber-500 hover:bg-amber-600 text-white font-semibold text-sm py-3">
+
+  <Button
+    to="/products"
+    className="w-full bg-amber-500 hover:bg-amber-600 text-white font-semibold text-sm py-3"
+  >
     Explore All Pastries
   </Button>
 </div>
