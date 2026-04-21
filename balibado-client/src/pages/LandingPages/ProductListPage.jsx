@@ -41,31 +41,6 @@ const ProductListPage = () => {
           <div className="w-20 h-1 mx-auto bg-gradient-to-r from-amber-500 to-orange-500 rounded-full shadow-sm"></div>
         </div>
 
-        {/* IMAGE GRID ABOVE PRODUCTLIST */}
-<div className="max-w-6xl mx-auto mb-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-  {products.map((product) => (
-    <div
-      key={product.name}
-      className="rounded-2xl border border-amber-200 bg-amber-50 overflow-hidden shadow-sm"
-    >
-      <img
-        src={product.image}
-        alt={product.title}
-        className="h-48 w-full object-cover"
-      />
-      <div className="p-4">
-        <p className="text-[11px] font-bold uppercase tracking-[0.24em] text-amber-600">
-          {product.category}
-        </p>
-        <h3 className="mt-2 text-lg font-semibold text-amber-900">
-          {product.title}
-        </h3>
-        <p className="mt-2 text-sm font-bold text-amber-800">{product.price}</p>
-      </div>
-    </div>
-  ))}
-</div>
-
         <div className="max-w-6xl mx-auto">
           <ProductList products={products} />
         </div>

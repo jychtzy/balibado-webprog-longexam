@@ -103,7 +103,7 @@ const HomePage = () => {
     <article className="group rounded-3xl border-2 border-amber-900 bg-amber-100 p-4 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
       <div className="aspect-4/3 rounded-[1.25rem] overflow-hidden bg-gradient-to-br from-rose-200 to-pink-300 group-hover:scale-105 transition-all">
         <img 
-          src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop" 
+          src="https://images.summitmedia-digital.com/spotph/images/2019/04/12/naked-1555063154.jpg" 
           alt="Custom Cakes"
           className="w-full h-full object-cover"
         />

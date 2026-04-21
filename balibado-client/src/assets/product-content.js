@@ -17,8 +17,8 @@ const products = [
     title: 'Pain au Chocolat',
     category: 'Pastries',
     price: 'PHP 109',
-    stock: 'Low stock',
-    image: 'https://thefrenchbakeronline.com/cdn/shop/products/6.jpg?v=1590295648',
+    stock: 'Low stock', 
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Pain_au_chocolat_Luc_Viatour.jpg',
     content: [
       'Double-layered with premium dark chocolate batons.',
       'Crispy exterior, gooey chocolate center.',

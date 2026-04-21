@@ -13,12 +13,12 @@ function ProductPage() {
           <div className="w-24 h-24 mx-auto bg-gradient-to-r from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white/50">
             <span className="text-4xl">🥐</span>
           </div>
-          <h1 className="text-3xl font-bold text-amber-900">Sold Out Today</h1>
+          <h1 className="text-3xl font-bold text-amber-900">PRODUCT NOT FOUND</h1>
           <p className="text-lg text-amber-700 font-semibold leading-relaxed">
-            Our fresh artisan bakes sell out daily. Return tomorrow at 6AM for the morning batch!
+            The product you're looking for doesn't exist or has been removed.
           </p>
           <Button to="/products" className="px-8 py-3 font-bold bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white shadow-lg rounded-xl">
-            Fresh Bakes
+            Browse Products
           </Button>
         </div>
       </div>

@@ -131,7 +131,7 @@ const AboutPage = () => {
   <div className="grid gap-4 sm:grid-cols-3 mb-6">
     <div className="rounded-xl overflow-hidden border border-amber-300 bg-white shadow-sm">
       <img
-        src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
+        src="https://www.theflavorbender.com/wp-content/uploads/2020/05/French-Croissants-SM-2363.jpg"
         alt="Croissants"
         className="w-full h-40 object-cover"
       />
@@ -142,7 +142,7 @@ const AboutPage = () => {
 
     <div className="rounded-xl overflow-hidden border border-amber-300 bg-white shadow-sm">
       <img
-        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+        src="https://www.jocooks.com/wp-content/uploads/2024/06/strawberry-cake-1-30a.jpg"
         alt="Cake"
         className="w-full h-40 object-cover"
       />
@@ -153,12 +153,12 @@ const AboutPage = () => {
 
     <div className="rounded-xl overflow-hidden border border-amber-300 bg-white shadow-sm">
       <img
-        src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80"
-        alt="Bread"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUI4CNO8u1DGvVKaNpzz_fXbaU3xaVw0T7og&s"
+        alt="Cupcakes"
         className="w-full h-40 object-cover"
       />
       <div className="p-3 text-center">
-        <p className="font-semibold text-amber-900">Bread</p>
+        <p className="font-semibold text-amber-900">Cupcakes</p>
       </div>
     </div>
   </div>
